@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Spartan:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box ;
+    }
+  
+  html, body{
+    height: 100%;
+  }
+
+  body{
+      display: flex;
+      width: 1200px;
+      background-color: lightgrey;
+  }
+
+h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 2rem;
+}
+
+span{
+    color: hsl(333, 80%, 67%);
+}
+
+.comment{
+    color: white;
+}
+
+.colton{
+    width: 320px;
+    height: 190px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.colton___image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;    
+}
+
+.colton___name {
+    
+/*     display: inline;  
+    margin-left: 30px;
+    margin-right: 60px;
+    text-align: justify;
+    justify-content: space-between;*/
+}
+.colton___opinion{
+   /*  display: inline;
+    margin: 25px; */
+}
